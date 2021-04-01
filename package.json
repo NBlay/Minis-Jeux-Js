@@ -1,0 +1,34 @@
+{
+  "name": "miniGames",
+  "version": "1.0.0",
+  "description": "On découvre Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ miniGames --platform win32 --arch x64 --electron-version=9.1.0 --overwrite",
+    "setup": "electron-installer-windows  --src miniGames-win32-x64 --dest miniGames-win32-x64/installers/"
+  },
+  "dependencies": {
+    "electron-packager": "^15.0.0"
+  },
+  "devDependencies": {
+      "electron-installer-windows": "*",
+     "electron-packager": "*",
+     "electron-prebuilt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-PhilippeCOTE/Mini-Games-JS.git"
+  },
+  "keywords": [
+    "mini-games",
+    "js",
+    "learning"
+  ],
+  "author": "JP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-PhilippeCOTE/Mini-Games-JS/issues"
+  },
+  "homepage": "https://github.com/Jean-PhilippeCOTE/Mini-Games-JS#readme"
+}

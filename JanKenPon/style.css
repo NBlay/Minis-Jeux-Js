@@ -1,0 +1,41 @@
+body {
+    margin-top: 15px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+#computer-choice {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 4px solid red;
+}
+
+img {
+    width: 150px;
+}
+
+.border {
+    border: 3px ridge purple;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    background-color: gold;
+    font-weight: 500;
+    color: black;
+}
+
+.none {
+    display: none;
+}

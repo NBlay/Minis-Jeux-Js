@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Jan Ken Pon</title>
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body>
+    <h1>Jan Ken Pon !</h1>
+    <article>
+        <p>De façon générale, <strong>la pierre bat les ciseaux</strong> (en les émoussant), <strong>les ciseaux battent la feuille</strong> (en la coupant), <strong>la feuille bat la pierre</strong> (en l'enveloppant).</p>
+        <p>Sélectionnez une action pour jouer</p>
+    </article>
+
+    <section id="player-choice">
+        <img src="img/pon.png" class="player" alt="Pierre" data-choice="Pon">
+        <img src="img/ken.png" class="player" alt="Papier" data-choice="Ken">
+        <img src="img/jan.png" class="player" alt="Ciseaux" data-choice="Jan">
+    </section>
+
+    <section id="computer-choice"></section>
+
+    <section>
+        <p id="result"></p>
+    </section>
+
+    <button type="button" id="replay" class="none">Replay game</button>
+
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

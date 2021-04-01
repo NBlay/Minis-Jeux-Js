@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 668px;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#score{
+    display: inline-block;
+    background-color: rgb(5, 128, 6);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid rgba(122, 42, 42, 0.8);
+    font-weight: bold;
+    padding: 5px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: 4px solid darkgrey;
+    box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.75);
+}
+
+button:hover{
+    box-shadow: 0px 0px 85px 0px rgba(0, 18, 209, 0.75);
+    background-color: rgba(0, 18, 209, 0.75) !important;
+}
+
+#start {
+    background-color: rgb(5, 128, 6);
+}
+
+#replay {
+    background-color: rgb(170, 83, 0);
+}
+
+table {
+    width: 100%;
+    max-height: 650px;
+    text-align: center;
+    border: 10px groove rgb(181, 163, 0);
+    border-collapse: collapse;
+}
+
+td {
+    border: 5px solid black;
+    width: 155px;
+    height: 155px;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.score {
+    text-align: center;
+}
+
+article {
+    margin-top: 25px;
+}
+
+p {
+    display: inline;
+}
